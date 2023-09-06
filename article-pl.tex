@@ -1,0 +1,109 @@
+% !TEX encoding = UTF-8 Unicode
+
+%%%%%%%%%%%%%%%%%%%% author.tex %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% sample root file for your "contribution" to a proceedings volume
+%
+% Use this file as a template for your own input.
+%
+%%%%%%%%%%%%%%%% Springer %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[conference]{IEEEtran}
+%
+% RECOMMENDED %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+
+% to typeset URLs, URIs, and DOIs
+% https://www.overleaf.com/learn/latex/Hyperlinks
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+
+\def\UrlFont{\rmfamily}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[textsize=scriptsize]{todonotes}
+\usepackage{gensymb}
+\usepackage{array,multirow}
+\usepackage{caption} 
+\captionsetup[table]{skip=10pt}
+\usepackage{makecell}
+
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{bm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\usepackage{graphicx}
+\graphicspath{ {./img/} }
+
+\renewcommand{\labelenumii}{\theenumii}
+\renewcommand{\theenumii}{\theenumi.\arabic{enumii}.}
+
+\begin{document}
+%
+\title{Duckietown linie folower PID and AI}
+
+
+\author{
+\IEEEauthorblockN{1\textsuperscript{st} Marek Długosz}
+\IEEEauthorblockA{\textit{AGH University of Science and Technology}\\
+Cracow, Poland \\
+mdlugosz@agh.edu.pl \\
+0000-0001-6827-9149}\\[0.4cm]
+\IEEEauthorblockN{3\textsuperscript{rd} Marcin Szelest}
+\IEEEauthorblockA{\textit{IEEE Senior Member}}
+\IEEEauthorblockA{\textit{AGH University of Science and Technology} \\
+Cracow, Poland \\
+mszelest@agh.edu.pl\\
+0000-0002-0522-1270}
+\and
+\IEEEauthorblockN{2\textsuperscript{nd} Paweł Skruch}
+\IEEEauthorblockA{\textit{IEEE Senior Member}}
+\IEEEauthorblockA{\textit{AGH University of Science and Technology} \\
+Cracow, Poland \\
+pawel.skruch@agh.edu.pl\\
+0000-0002-8290-8375}\\
+\IEEEauthorblockN{4\textsuperscript{th} Artur Morys-Magiera}
+\IEEEauthorblockA{\textit{AGH University of Science and Technology} \\
+Cracow, Poland \\
+amorys@student.agh.edu.pl\\
+0000-0002-2137-8841}
+}
+
+
+\maketitle              % typeset the title of the contribution
+
+\begin{abstract}
+
+\end{abstract}
+
+
+% We would like to encourage you to list your keywords within
+% the abstract section using the \keywords{...} command.
+\begin{IEEEkeywords}
+\end{IEEEkeywords}
+%
+\section{Introduction}
+
+
+
+\section{Conclusion}\label{sec:conclusion}
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}
